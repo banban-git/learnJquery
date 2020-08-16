@@ -1,1 +1,2 @@
 # learnJquery
+JQuery勉強専用レポジトリ
