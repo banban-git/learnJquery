@@ -1,0 +1,85 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+$(function(){
+  $('a[href^=#]').click(function(){
+        var myHref= $(this).attr('href');
+        var myHeading = $(myHref).offset().top;
+        $('html, body').animate({scrollTop: myHeading}, 1000 );
+          return false;
+  });
+})
+</script>
+<style>
+#header {
+    background: #d1d2f3;
+    padding:10px;
+}
+#content {
+    background: #ecedfa;
+    padding: 10px;
+}
+#footer {
+    background: #d1d2f3;
+    padding: 10px;
+}
+#content_1, #content_2, #content_3, #content_4, #content_5 {
+    background: #d1d2f4;
+    padding: 10px;
+}
+</style>
+ 
+<div id="header">
+    <h1>header</h1>
+</div>
+<div id="content">
+    <p>index</p>
+    <ul>
+        <li><a href="#content_1">heading-1</a></li>
+        <li><a href="#content_2">heading-2</a></li>
+        <li><a href="#content_3">heading-3</a></li>
+        <li><a href="#content_4">heading-4</a></li>
+        <li><a href="#content_5">heading-5</a></li>
+    </ul>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <h2 id="content_1">heading-1</h2>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <h2 id="content_2">heading-2</h2>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <h2 id="content_3">heading-3</h2>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <h2 id="content_4">heading-4</h2>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <h2 id="content_5">heading-5</h2>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+    <p>content</p>
+</div>
+<div id="footer"><h3>footer<h/3></div>
