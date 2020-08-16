@@ -1,2 +1,2 @@
 # learnJquery
-JQuery勉強専用レポジトリ
+JQuery蜍牙ｼｷ蟆ら畑繝ｬ繝昴ず繝医Μ
